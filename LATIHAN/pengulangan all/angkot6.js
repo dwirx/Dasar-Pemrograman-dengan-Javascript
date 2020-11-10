@@ -2,12 +2,15 @@
 var jmlAngkot = 10;
 var angkotBeroprasi = 6;
 
+// || = or
+// && = and
+// ! = not
 
 for(var noAngkot = 1; noAngkot <= jmlAngkot; noAngkot++) {
 
-    if( noAngkot <= 6) {
+    if( noAngkot <= 6 && noAngkot !== 5) {
         console.log('Angkot No. ' + noAngkot + ' beroprasi dengan baik.');
-    } else if (noAngkot === 8 ) {
+    } else if ( noAngkot === 8 || noAngkot ===10 ||noAngkot ===5 ) {
         console.log('Angkot No. ' + noAngkot + ' sedang lembur');
     } else {
         console.log('Angkot No. ' + noAngkot + ' sedang tidak beroperasi.');
