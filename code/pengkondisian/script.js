@@ -39,15 +39,29 @@
 //  console.log(s);
 // }
 
-var a = '';
-var n = 5;
-var m = (n-1); 
-for(i=1; i <= n; i++)
-{
-    a = a.trim();
-    a = ' '.repeat(m) + a + (i > 1 ? ' ' : '') + '*';
-    console.log(a);
-    m--;
-}
+// var a = '';
+// var n = 5;
+// var m = (n-1); 
+// for(i=1; i <= n; i++)
+// {
+//     a = a.trim();
+//     a = ' '.repeat(m) + a + (i > 1 ? ' ' : '') + '*';
+//     console.log(a);
+//     m--;
+// }
     
 
+var s ='';
+for (var i = 10; i > 0; i--) {
+    for (var j = 0; j < i; j++) {
+        s += '*';
+    }
+    s += '\n'; {
+        for (var i = 10; i < 0; i++) {
+    for (var j = 0; j <= i; j++) {
+        s += '*';
+    }
+    s += '\n';
+    }
+}
+console.log(s);
