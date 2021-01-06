@@ -86,8 +86,8 @@
 // alert(jumlahVolumeDuaKubus(8, 3));
 // alert(jumlahVolumeDuaKubus(10, 15));
 
-function tambah(a,b) {
-    retunr a + b;
-}
+// function tambah(a,b) {
+//     retunr a + b;
+// }
 
-var coba = tambah(5,10);
+// var coba = tambah(5,10);

@@ -16,13 +16,25 @@
 // console.log(hasil);
 
 //MEMASUKAN ARGUMENNYA FUNSION JUGA
-function tambah(a,b) {
-    return a + b;
+// function tambah(a,b) {
+//     return a + b;
+// }
+
+// function kali(a,b) {
+//     return a * b;
+// }
+
+// var hasil = kali(tambah(1,2), tambah(3,4));
+// console.log(hasil);
+//SUDO VARIABEL ARGUMENTES
+function tambah() {
+    
+    var hasil = 0;
+    for( var i = 0; i < arguments.length; i++) {
+        hasil += arguments[i];
+    }
+    return hasil;
 }
 
-function kali(a,b) {
-    return a * b;
-}
-
-var hasil = kali(tambah(1,2), tambah(3,4));
-console.log(hasil);
+var coba = tambah(1,2,3,4)
+console.log(coba);
